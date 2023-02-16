@@ -1,0 +1,353 @@
+2023-02-01 14:02:876 INFO  BaseClass:44 - URL Launched
+2023-02-01 14:02:414 INFO  BaseClass:53 - clicked on sign-in button
+2023-02-01 14:02:459 INFO  BaseClass:56 - Switched to IFrame
+2023-02-01 14:02:548 INFO  BaseClass:59 - Entered email ID
+2023-02-01 14:02:658 INFO  BaseClass:63 - Entered Password
+2023-02-01 14:02:752 INFO  BaseClass:67 - Unchecked the check box
+2023-02-01 14:02:844 INFO  BaseClass:72 - Clicked on sign-in button
+2023-02-01 14:02:271 INFO  BaseClass:76 - Mouse hovered on account icon
+2023-02-01 14:02:320 INFO  BaseClass:88 - Sucessful login
+2023-02-01 14:02:816 INFO  BaseClass:40 - URL Launched
+2023-02-01 14:02:199 INFO  BaseClass:49 - clicked on sign-in button
+2023-02-01 14:02:252 INFO  BaseClass:52 - Switched to IFrame
+2023-02-01 14:02:342 INFO  BaseClass:55 - Entered email ID
+2023-02-01 14:02:445 INFO  BaseClass:59 - Entered Password
+2023-02-01 14:02:548 INFO  BaseClass:63 - Unchecked the check box
+2023-02-01 14:02:635 INFO  BaseClass:68 - Clicked on sign-in button
+2023-02-01 14:02:982 INFO  BaseClass:72 - Mouse hovered on account icon
+2023-02-01 14:02:16 INFO  BaseClass:84 - Sucessful login
+2023-02-01 15:02:633 INFO  BaseClass:40 - URL Launched
+2023-02-01 15:02:759 INFO  BaseClass:49 - clicked on sign-in button
+2023-02-01 15:02:807 INFO  BaseClass:52 - Switched to IFrame
+2023-02-01 15:02:895 INFO  BaseClass:55 - Entered email ID
+2023-02-01 15:02:707 INFO  BaseClass:40 - URL Launched
+2023-02-01 15:02:168 INFO  BaseClass:49 - clicked on sign-in button
+2023-02-01 15:02:215 INFO  BaseClass:52 - Switched to IFrame
+2023-02-01 15:02:334 INFO  BaseClass:55 - Entered email ID
+2023-02-01 15:02:426 INFO  BaseClass:59 - Entered Password
+2023-02-01 15:02:515 INFO  BaseClass:63 - Unchecked the check box
+2023-02-01 15:02:616 INFO  BaseClass:68 - Clicked on sign-in button
+2023-02-01 15:02:857 INFO  BaseClass:72 - Mouse hovered on account icon
+2023-02-01 15:02:891 INFO  BaseClass:84 - Sucessful login
+2023-02-01 15:02:805 INFO  BaseClass:44 - URL Launched
+2023-02-01 15:02:259 INFO  BaseClass:53 - clicked on sign-in button
+2023-02-01 15:02:307 INFO  BaseClass:56 - Switched to IFrame
+2023-02-01 15:02:413 INFO  BaseClass:59 - Entered email ID
+2023-02-01 15:02:519 INFO  BaseClass:63 - Entered Password
+2023-02-01 15:02:610 INFO  BaseClass:67 - Unchecked the check box
+2023-02-01 15:02:711 INFO  BaseClass:72 - Clicked on sign-in button
+2023-02-01 15:02:281 INFO  BaseClass:76 - Mouse hovered on account icon
+2023-02-01 15:02:320 INFO  BaseClass:90 - Invalid login
+2023-02-01 16:02:768 INFO  BaseClass:44 - URL Launched
+2023-02-01 16:02:30 INFO  BaseClass:53 - clicked on sign-in button
+2023-02-01 16:02:63 INFO  BaseClass:56 - Switched to IFrame
+2023-02-01 16:02:192 INFO  BaseClass:59 - Entered email ID
+2023-02-01 16:02:288 INFO  BaseClass:63 - Entered Password
+2023-02-01 16:02:387 INFO  BaseClass:67 - Unchecked the check box
+2023-02-01 16:02:480 INFO  BaseClass:72 - Clicked on sign-in button
+2023-02-01 16:02:122 INFO  BaseClass:76 - Mouse hovered on account icon
+2023-02-01 16:02:157 INFO  BaseClass:90 - Invalid login
+2023-02-01 16:02:140 INFO  BaseClass:44 - URL Launched
+2023-02-01 16:02:336 INFO  BaseClass:53 - clicked on sign-in button
+2023-02-01 16:02:367 INFO  BaseClass:56 - Switched to IFrame
+2023-02-01 16:02:469 INFO  BaseClass:59 - Entered email ID
+2023-02-01 16:02:566 INFO  BaseClass:63 - Entered Password
+2023-02-01 16:02:669 INFO  BaseClass:67 - Unchecked the check box
+2023-02-01 16:02:764 INFO  BaseClass:72 - Clicked on sign-in button
+2023-02-01 16:02:572 INFO  BaseClass:76 - Mouse hovered on account icon
+2023-02-01 16:02:614 INFO  BaseClass:88 - Sucessful login
+2023-02-01 16:02:890 INFO  BaseClass:44 - URL Launched
+2023-02-01 16:02:78 INFO  BaseClass:53 - clicked on sign-in button
+2023-02-01 16:02:109 INFO  BaseClass:56 - Switched to IFrame
+2023-02-01 16:02:202 INFO  BaseClass:59 - Entered email ID
+2023-02-01 16:02:292 INFO  BaseClass:63 - Entered Password
+2023-02-01 16:02:392 INFO  BaseClass:67 - Unchecked the check box
+2023-02-01 16:02:485 INFO  BaseClass:72 - Clicked on sign-in button
+2023-02-01 16:02:790 INFO  BaseClass:76 - Mouse hovered on account icon
+2023-02-01 16:02:833 INFO  BaseClass:90 - Invalid login
+2023-02-01 16:02:966 INFO  BaseClass:44 - URL Launched
+2023-02-01 16:02:175 INFO  BaseClass:53 - clicked on sign-in button
+2023-02-01 16:02:222 INFO  BaseClass:56 - Switched to IFrame
+2023-02-01 16:02:308 INFO  BaseClass:59 - Entered email ID
+2023-02-01 16:02:420 INFO  BaseClass:63 - Entered Password
+2023-02-01 16:02:525 INFO  BaseClass:67 - Unchecked the check box
+2023-02-01 16:02:633 INFO  BaseClass:72 - Clicked on sign-in button
+2023-02-01 16:02:521 INFO  BaseClass:76 - Mouse hovered on account icon
+2023-02-01 16:02:557 INFO  BaseClass:88 - Sucessful login
+2023-02-01 16:02:387 INFO  BaseClass:44 - URL Launched
+2023-02-01 16:02:689 INFO  BaseClass:53 - clicked on sign-in button
+2023-02-01 16:02:735 INFO  BaseClass:56 - Switched to IFrame
+2023-02-01 16:02:819 INFO  BaseClass:59 - Entered email ID
+2023-02-01 16:02:948 INFO  BaseClass:63 - Entered Password
+2023-02-01 16:02:82 INFO  BaseClass:67 - Unchecked the check box
+2023-02-01 16:02:190 INFO  BaseClass:72 - Clicked on sign-in button
+2023-02-01 16:02:242 INFO  BaseClass:76 - Mouse hovered on account icon
+2023-02-01 16:02:291 INFO  BaseClass:90 - Invalid login
+2023-02-01 16:02:726 INFO  BaseClass:46 - URL Launched
+2023-02-01 16:02:18 INFO  BaseClass:55 - clicked on sign-in button
+2023-02-01 16:02:66 INFO  BaseClass:58 - Switched to IFrame
+2023-02-01 16:02:154 INFO  BaseClass:61 - Entered email ID
+2023-02-01 16:02:248 INFO  BaseClass:65 - Entered Password
+2023-02-01 16:02:345 INFO  BaseClass:69 - Unchecked the check box
+2023-02-01 16:02:447 INFO  BaseClass:74 - Clicked on sign-in button
+2023-02-01 16:02:623 INFO  BaseClass:78 - Mouse hovered on account icon
+2023-02-01 16:02:658 INFO  BaseClass:90 - Sucessful login
+2023-02-01 16:02:322 INFO  BaseClass:46 - URL Launched
+2023-02-01 16:02:87 INFO  BaseClass:55 - clicked on sign-in button
+2023-02-01 16:02:134 INFO  BaseClass:58 - Switched to IFrame
+2023-02-01 16:02:252 INFO  BaseClass:61 - Entered email ID
+2023-02-01 16:02:383 INFO  BaseClass:65 - Entered Password
+2023-02-01 16:02:511 INFO  BaseClass:69 - Unchecked the check box
+2023-02-01 16:02:627 INFO  BaseClass:74 - Clicked on sign-in button
+2023-02-01 16:02:867 INFO  BaseClass:78 - Mouse hovered on account icon
+2023-02-01 16:02:100 INFO  BaseClass:46 - URL Launched
+2023-02-01 16:02:331 INFO  BaseClass:55 - clicked on sign-in button
+2023-02-01 16:02:393 INFO  BaseClass:58 - Switched to IFrame
+2023-02-01 16:02:560 INFO  BaseClass:61 - Entered email ID
+2023-02-01 16:02:659 INFO  BaseClass:65 - Entered Password
+2023-02-01 16:02:759 INFO  BaseClass:69 - Unchecked the check box
+2023-02-01 16:02:862 INFO  BaseClass:74 - Clicked on sign-in button
+2023-02-01 16:02:718 INFO  BaseClass:78 - Mouse hovered on account icon
+2023-02-01 16:02:752 INFO  BaseClass:90 - Sucessful login
+2023-02-01 16:02:25 INFO  BaseClass:46 - URL Launched
+2023-02-01 16:02:154 INFO  BaseClass:55 - clicked on sign-in button
+2023-02-01 16:02:185 INFO  BaseClass:58 - Switched to IFrame
+2023-02-01 16:02:281 INFO  BaseClass:61 - Entered email ID
+2023-02-01 16:02:389 INFO  BaseClass:65 - Entered Password
+2023-02-01 16:02:494 INFO  BaseClass:69 - Unchecked the check box
+2023-02-01 16:02:596 INFO  BaseClass:74 - Clicked on sign-in button
+2023-02-01 16:02:167 INFO  BaseClass:78 - Mouse hovered on account icon
+2023-02-01 19:02:916 INFO  BaseClass:46 - URL Launched
+2023-02-01 19:02:242 INFO  BaseClass:55 - clicked on sign-in button
+2023-02-01 19:02:584 INFO  BaseClass:58 - Switched to IFrame
+2023-02-01 19:02:791 INFO  BaseClass:61 - Entered email ID
+2023-02-01 19:02:921 INFO  BaseClass:65 - Entered Password
+2023-02-01 19:02:51 INFO  BaseClass:69 - Unchecked the check box
+2023-02-01 19:02:164 INFO  BaseClass:74 - Clicked on sign-in button
+2023-02-01 19:02:37 INFO  BaseClass:78 - Mouse hovered on account icon
+2023-02-01 19:02:86 INFO  BaseClass:89 - Sucessful login
+2023-02-01 19:02:920 INFO  BaseClass:46 - URL Launched
+2023-02-01 19:02:726 INFO  BaseClass:55 - clicked on sign-in button
+2023-02-01 19:02:768 INFO  BaseClass:58 - Switched to IFrame
+2023-02-01 19:02:847 INFO  BaseClass:61 - Entered email ID
+2023-02-01 19:02:949 INFO  BaseClass:65 - Entered Password
+2023-02-01 19:02:52 INFO  BaseClass:69 - Unchecked the check box
+2023-02-01 19:02:158 INFO  BaseClass:74 - Clicked on sign-in button
+2023-02-01 19:02:564 INFO  BaseClass:78 - Mouse hovered on account icon
+2023-02-01 19:02:600 INFO  BaseClass:91 - Invalid login
+2023-02-02 11:02:624 INFO  BaseClass:46 - URL Launched
+2023-02-02 11:02:448 INFO  BaseClass:55 - clicked on sign-in button
+2023-02-02 11:02:494 INFO  BaseClass:58 - Switched to IFrame
+2023-02-02 11:02:607 INFO  BaseClass:61 - Entered email ID
+2023-02-02 11:02:744 INFO  BaseClass:65 - Entered Password
+2023-02-02 11:02:852 INFO  BaseClass:69 - Unchecked the check box
+2023-02-02 11:02:967 INFO  BaseClass:74 - Clicked on sign-in button
+2023-02-02 11:02:770 INFO  BaseClass:78 - Mouse hovered on account icon
+2023-02-02 11:02:819 INFO  BaseClass:89 - Sucessful login
+2023-02-02 11:02:34 INFO  BaseClass:46 - URL Launched
+2023-02-02 11:02:627 INFO  BaseClass:55 - clicked on sign-in button
+2023-02-02 11:02:675 INFO  BaseClass:58 - Switched to IFrame
+2023-02-02 11:02:762 INFO  BaseClass:61 - Entered email ID
+2023-02-02 11:02:909 INFO  BaseClass:65 - Entered Password
+2023-02-02 11:02:43 INFO  BaseClass:69 - Unchecked the check box
+2023-02-02 11:02:159 INFO  BaseClass:74 - Clicked on sign-in button
+2023-02-02 11:02:765 INFO  BaseClass:78 - Mouse hovered on account icon
+2023-02-02 11:02:813 INFO  BaseClass:91 - Invalid login
+2023-02-02 11:02:614 INFO  BaseClass:46 - URL Launched
+2023-02-02 11:02:809 INFO  BaseClass:55 - clicked on sign-in button
+2023-02-02 11:02:868 INFO  BaseClass:58 - Switched to IFrame
+2023-02-02 11:02:981 INFO  BaseClass:61 - Entered email ID
+2023-02-02 11:02:80 INFO  BaseClass:65 - Entered Password
+2023-02-02 11:02:215 INFO  BaseClass:69 - Unchecked the check box
+2023-02-02 11:02:329 INFO  BaseClass:74 - Clicked on sign-in button
+2023-02-02 11:02:235 INFO  BaseClass:78 - Mouse hovered on account icon
+2023-02-02 11:02:276 INFO  BaseClass:89 - Sucessful login
+2023-02-02 11:02:156 INFO  BaseClass:46 - URL Launched
+2023-02-02 11:02:274 INFO  BaseClass:55 - clicked on sign-in button
+2023-02-02 11:02:322 INFO  BaseClass:58 - Switched to IFrame
+2023-02-02 11:02:419 INFO  BaseClass:61 - Entered email ID
+2023-02-02 11:02:535 INFO  BaseClass:65 - Entered Password
+2023-02-02 11:02:641 INFO  BaseClass:69 - Unchecked the check box
+2023-02-02 11:02:743 INFO  BaseClass:74 - Clicked on sign-in button
+2023-02-02 11:02:411 INFO  BaseClass:78 - Mouse hovered on account icon
+2023-02-02 11:02:451 INFO  BaseClass:91 - Invalid login
+2023-02-02 12:02:335 INFO  BaseClass:46 - URL Launched
+2023-02-02 12:02:489 INFO  BaseClass:55 - clicked on sign-in button
+2023-02-02 12:02:530 INFO  BaseClass:58 - Switched to IFrame
+2023-02-02 12:02:632 INFO  BaseClass:61 - Entered email ID
+2023-02-02 12:02:737 INFO  BaseClass:65 - Entered Password
+2023-02-02 12:02:824 INFO  BaseClass:69 - Unchecked the check box
+2023-02-02 12:02:931 INFO  BaseClass:74 - Clicked on sign-in button
+2023-02-02 12:02:633 INFO  BaseClass:78 - Mouse hovered on account icon
+2023-02-02 12:02:670 INFO  BaseClass:89 - Sucessful login
+2023-02-02 12:02:168 INFO  BaseClass:46 - URL Launched
+2023-02-02 12:02:374 INFO  BaseClass:55 - clicked on sign-in button
+2023-02-02 12:02:425 INFO  BaseClass:58 - Switched to IFrame
+2023-02-02 12:02:519 INFO  BaseClass:61 - Entered email ID
+2023-02-02 12:02:604 INFO  BaseClass:65 - Entered Password
+2023-02-02 12:02:690 INFO  BaseClass:69 - Unchecked the check box
+2023-02-02 12:02:804 INFO  BaseClass:74 - Clicked on sign-in button
+2023-02-02 12:02:391 INFO  BaseClass:78 - Mouse hovered on account icon
+2023-02-02 12:02:438 INFO  BaseClass:91 - Invalid login
+2023-02-02 12:02:761 INFO  BaseClass:49 - URL Launched
+2023-02-02 12:02:159 INFO  BaseClass:58 - clicked on sign-in button
+2023-02-02 12:02:230 INFO  BaseClass:61 - Switched to IFrame
+2023-02-02 12:02:358 INFO  BaseClass:64 - Entered email ID
+2023-02-02 12:02:546 INFO  BaseClass:68 - Entered Password
+2023-02-02 12:02:698 INFO  BaseClass:72 - Unchecked the check box
+2023-02-02 12:02:827 INFO  BaseClass:77 - Clicked on sign-in button
+2023-02-02 12:02:906 INFO  BaseClass:81 - Mouse hovered on account icon
+2023-02-02 12:02:958 INFO  BaseClass:94 - Invalid login
+2023-02-02 12:02:312 INFO  BaseClass:52 - URL Launched
+2023-02-02 12:02:503 INFO  BaseClass:61 - clicked on sign-in button
+2023-02-02 12:02:548 INFO  BaseClass:64 - Switched to IFrame
+2023-02-02 12:02:639 INFO  BaseClass:67 - Entered email ID
+2023-02-02 12:02:891 INFO  BaseClass:71 - Entered Password
+2023-02-02 12:02:43 INFO  BaseClass:75 - Unchecked the check box
+2023-02-02 12:02:202 INFO  BaseClass:80 - Clicked on sign-in button
+2023-02-02 12:02:679 INFO  BaseClass:84 - Mouse hovered on account icon
+2023-02-02 12:02:757 INFO  BaseClass:97 - Invalid login
+2023-02-02 12:02:343 INFO  BaseClass:52 - URL Launched
+2023-02-02 12:02:505 INFO  BaseClass:61 - clicked on sign-in button
+2023-02-02 12:02:553 INFO  BaseClass:64 - Switched to IFrame
+2023-02-02 12:02:666 INFO  BaseClass:67 - Entered email ID
+2023-02-02 12:02:794 INFO  BaseClass:71 - Entered Password
+2023-02-02 12:02:890 INFO  BaseClass:75 - Unchecked the check box
+2023-02-02 12:02:980 INFO  BaseClass:80 - Clicked on sign-in button
+2023-02-02 12:02:97 INFO  BaseClass:84 - Mouse hovered on account icon
+2023-02-02 12:02:145 INFO  BaseClass:97 - Invalid login
+2023-02-02 12:02:828 INFO  BaseClass:52 - URL Launched
+2023-02-02 12:02:993 INFO  BaseClass:61 - clicked on sign-in button
+2023-02-02 12:02:75 INFO  BaseClass:64 - Switched to IFrame
+2023-02-02 12:02:215 INFO  BaseClass:67 - Entered email ID
+2023-02-02 12:02:337 INFO  BaseClass:71 - Entered Password
+2023-02-02 12:02:430 INFO  BaseClass:75 - Unchecked the check box
+2023-02-02 12:02:562 INFO  BaseClass:80 - Clicked on sign-in button
+2023-02-02 12:02:23 INFO  BaseClass:84 - Mouse hovered on account icon
+2023-02-02 12:02:63 INFO  BaseClass:97 - Invalid login
+2023-02-02 12:02:199 INFO  BaseClass:52 - URL Launched
+2023-02-02 12:02:441 INFO  BaseClass:61 - clicked on sign-in button
+2023-02-02 12:02:489 INFO  BaseClass:64 - Switched to IFrame
+2023-02-02 12:02:575 INFO  BaseClass:67 - Entered email ID
+2023-02-02 12:02:676 INFO  BaseClass:71 - Entered Password
+2023-02-02 12:02:770 INFO  BaseClass:75 - Unchecked the check box
+2023-02-02 12:02:865 INFO  BaseClass:80 - Clicked on sign-in button
+2023-02-02 12:02:941 INFO  BaseClass:84 - Mouse hovered on account icon
+2023-02-02 12:02:982 INFO  BaseClass:97 - Invalid login
+2023-02-02 15:02:36 INFO  BaseClass:52 - URL Launched
+2023-02-02 15:02:290 INFO  BaseClass:61 - clicked on sign-in button
+2023-02-02 15:02:352 INFO  BaseClass:64 - Switched to IFrame
+2023-02-02 15:02:468 INFO  BaseClass:67 - Entered email ID
+2023-02-02 15:02:632 INFO  BaseClass:71 - Entered Password
+2023-02-02 15:02:758 INFO  BaseClass:75 - Unchecked the check box
+2023-02-02 15:02:862 INFO  BaseClass:80 - Clicked on sign-in button
+2023-02-02 15:02:906 INFO  BaseClass:84 - Mouse hovered on account icon
+2023-02-02 15:02:948 INFO  BaseClass:97 - Invalid login
+2023-02-02 15:02:254 INFO  BaseClass:52 - URL Launched
+2023-02-02 15:02:17 INFO  BaseClass:61 - clicked on sign-in button
+2023-02-02 15:02:62 INFO  BaseClass:64 - Switched to IFrame
+2023-02-02 15:02:155 INFO  BaseClass:67 - Entered email ID
+2023-02-02 15:02:265 INFO  BaseClass:71 - Entered Password
+2023-02-02 15:02:361 INFO  BaseClass:75 - Unchecked the check box
+2023-02-02 15:02:460 INFO  BaseClass:80 - Clicked on sign-in button
+2023-02-02 15:02:213 INFO  BaseClass:84 - Mouse hovered on account icon
+2023-02-02 15:02:258 INFO  BaseClass:97 - Invalid login
+2023-02-02 15:02:285 INFO  BaseClass:52 - URL Launched
+2023-02-02 15:02:428 INFO  BaseClass:61 - clicked on sign-in button
+2023-02-02 15:02:481 INFO  BaseClass:64 - Switched to IFrame
+2023-02-02 15:02:575 INFO  BaseClass:67 - Entered email ID
+2023-02-02 15:02:710 INFO  BaseClass:71 - Entered Password
+2023-02-02 15:02:805 INFO  BaseClass:75 - Unchecked the check box
+2023-02-02 15:02:915 INFO  BaseClass:80 - Clicked on sign-in button
+2023-02-02 15:02:126 INFO  BaseClass:84 - Mouse hovered on account icon
+2023-02-02 15:02:162 INFO  BaseClass:97 - Invalid login
+2023-02-02 15:02:289 INFO  BaseClass:52 - URL Launched
+2023-02-02 15:02:466 INFO  BaseClass:61 - clicked on sign-in button
+2023-02-02 15:02:513 INFO  BaseClass:64 - Switched to IFrame
+2023-02-02 15:02:596 INFO  BaseClass:67 - Entered email ID
+2023-02-02 15:02:719 INFO  BaseClass:71 - Entered Password
+2023-02-02 15:02:815 INFO  BaseClass:75 - Unchecked the check box
+2023-02-02 15:02:909 INFO  BaseClass:80 - Clicked on sign-in button
+2023-02-02 15:02:132 INFO  BaseClass:84 - Mouse hovered on account icon
+2023-02-02 15:02:177 INFO  BaseClass:97 - Invalid login
+2023-02-03 12:02:937 INFO  BaseClass:52 - URL Launched
+2023-02-03 12:02:135 INFO  BaseClass:61 - clicked on sign-in button
+2023-02-03 12:02:189 INFO  BaseClass:64 - Switched to IFrame
+2023-02-03 12:02:299 INFO  BaseClass:67 - Entered email ID
+2023-02-03 12:02:467 INFO  BaseClass:71 - Entered Password
+2023-02-03 12:02:639 INFO  BaseClass:75 - Unchecked the check box
+2023-02-03 12:02:737 INFO  BaseClass:80 - Clicked on sign-in button
+2023-02-03 12:02:323 INFO  BaseClass:84 - Mouse hovered on account icon
+2023-02-03 12:02:373 INFO  BaseClass:95 - Sucessful login
+2023-02-03 12:02:407 INFO  BaseClass:52 - URL Launched
+2023-02-03 12:02:575 INFO  BaseClass:61 - clicked on sign-in button
+2023-02-03 12:02:617 INFO  BaseClass:64 - Switched to IFrame
+2023-02-03 12:02:697 INFO  BaseClass:67 - Entered email ID
+2023-02-03 12:02:800 INFO  BaseClass:71 - Entered Password
+2023-02-03 12:02:889 INFO  BaseClass:75 - Unchecked the check box
+2023-02-03 12:02:991 INFO  BaseClass:80 - Clicked on sign-in button
+2023-02-03 12:02:988 INFO  BaseClass:84 - Mouse hovered on account icon
+2023-02-03 12:02:28 INFO  BaseClass:97 - Invalid login
+2023-02-03 17:02:862 INFO  BaseClass:52 - URL Launched
+2023-02-03 17:02:20 INFO  BaseClass:61 - clicked on sign-in button
+2023-02-03 17:02:76 INFO  BaseClass:64 - Switched to IFrame
+2023-02-03 17:02:178 INFO  BaseClass:67 - Entered email ID
+2023-02-03 17:02:313 INFO  BaseClass:71 - Entered Password
+2023-02-03 17:02:439 INFO  BaseClass:75 - Unchecked the check box
+2023-02-03 17:02:585 INFO  BaseClass:80 - Clicked on sign-in button
+2023-02-03 17:02:511 INFO  BaseClass:84 - Mouse hovered on account icon
+2023-02-03 17:02:558 INFO  BaseClass:95 - Sucessful login
+2023-02-03 17:02:219 INFO  BaseClass:52 - URL Launched
+2023-02-03 17:02:469 INFO  BaseClass:61 - clicked on sign-in button
+2023-02-03 17:02:696 INFO  BaseClass:64 - Switched to IFrame
+2023-02-03 17:02:924 INFO  BaseClass:67 - Entered email ID
+2023-02-03 17:02:55 INFO  BaseClass:71 - Entered Password
+2023-02-03 17:02:166 INFO  BaseClass:75 - Unchecked the check box
+2023-02-03 17:02:376 INFO  BaseClass:80 - Clicked on sign-in button
+2023-02-03 17:02:734 INFO  BaseClass:84 - Mouse hovered on account icon
+2023-02-03 17:02:772 INFO  BaseClass:97 - Invalid login
+2023-02-08 16:02:607 INFO  BaseClass:135 - Samsung URL Launched
+2023-02-08 16:02:69 INFO  BaseClass:135 - Samsung URL Launched
+2023-02-08 16:02:20 INFO  BaseClass:135 - Samsung URL Launched
+2023-02-08 16:02:56 INFO  BaseClass:135 - Samsung URL Launched
+2023-02-08 16:02:856 INFO  BaseClass:135 - Samsung URL Launched
+2023-02-08 17:02:158 INFO  BaseClass:135 - Samsung URL Launched
+2023-02-08 17:02:07 INFO  BaseClass:135 - Samsung URL Launched
+2023-02-08 17:02:502 INFO  BaseClass:135 - Samsung URL Launched
+2023-02-08 17:02:190 INFO  BaseClass:135 - Samsung URL Launched
+2023-02-08 17:02:804 INFO  BaseClass:135 - Samsung URL Launched
+2023-02-08 17:02:673 INFO  BaseClass:135 - Samsung URL Launched
+2023-02-08 18:02:747 INFO  BaseClass:135 - Samsung URL Launched
+2023-02-08 18:02:907 INFO  BaseClass:135 - Samsung URL Launched
+2023-02-08 18:02:911 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-08 18:02:17 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 11:02:258 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 12:02:30 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 12:02:202 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 13:02:976 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 15:02:613 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 16:02:79 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 16:02:265 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 16:02:79 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 16:02:329 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 16:02:382 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 17:02:321 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 17:02:41 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 17:02:238 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 17:02:710 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 17:02:570 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 18:02:516 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 18:02:909 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-09 18:02:37 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-10 07:02:458 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-10 07:02:431 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-10 07:02:438 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-10 08:02:117 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-10 08:02:972 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-10 10:02:713 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-10 10:02:510 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-10 10:02:743 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-10 11:02:591 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-10 11:02:430 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-10 16:02:848 INFO  BaseClass:138 - Samsung URL Launched
+2023-02-10 16:02:643 INFO  BaseClass:138 - Samsung URL Launched

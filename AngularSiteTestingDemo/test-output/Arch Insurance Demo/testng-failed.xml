@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Arch Insurance Demo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Forbes Automation TC001 LoginTest(failed)">
+    <classes>
+      <class name="com.AngularSiteTestingDemo.testCases.TC_ngCalculator_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="ngCalculator"/>
+          <include name="logsetUp"/>
+        </methods>
+      </class> <!-- com.AngularSiteTestingDemo.testCases.TC_ngCalculator_002 -->
+      <class name="com.AngularSiteTestingDemo.testCases.TC_SignIn_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="signInTest"/>
+        </methods>
+      </class> <!-- com.AngularSiteTestingDemo.testCases.TC_SignIn_001 -->
+    </classes>
+  </test> <!-- Forbes Automation TC001 LoginTest(failed) -->
+</suite> <!-- Failed suite [Arch Insurance Demo] -->

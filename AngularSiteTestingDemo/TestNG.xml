@@ -1,0 +1,19 @@
+<?xml version= "1.0" encoding= "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Arch Insurance Demo">
+	<test name="Forbes Automation TC001 LoginTest">
+		<classes>
+			<class name="com.AngularSiteTestingDemo.testCases.TC_SignIn_001"/>
+			<class name="com.AngularSiteTestingDemo.testCases.TC_ngCalculator_002"/>
+		</classes>
+	</test>
+	
+	<!-- <test name="Angular Calculator TC002 ">
+		<classes>
+			<class name="com.AngularSiteTestingDemo.testCases.TC_ngCalculator_002"/>
+		</classes>
+	</test> -->
+	
+</suite>

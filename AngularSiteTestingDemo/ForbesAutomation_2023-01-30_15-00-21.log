@@ -1,0 +1,10 @@
+2023-01-30 15:01:686 INFO  BaseClass:33 - Launched URL
+2023-01-30 15:01:834 INFO  BaseClass:37 - Clicked on sign-in
+2023-01-30 15:01:897 INFO  BaseClass:39 - Switched to IFrame
+2023-01-30 15:01:17 INFO  BaseClass:41 - Entered email ID
+2023-01-30 15:01:138 INFO  BaseClass:44 - Entered Password
+2023-01-30 15:01:257 INFO  BaseClass:47 - Unchecked the check box
+2023-01-30 15:01:369 INFO  BaseClass:51 - Clicked on sign-in button
+2023-01-30 15:01:610 INFO  BaseClass:54 - Mouse hovered on account icon
+2023-01-30 15:01:14 INFO  BaseClass:59 - Fetched account holders name
+2023-01-30 15:01:516 INFO  BaseClass:30 - ng Site Launched
