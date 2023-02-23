@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\GokulRajIbrahimpatna\AppData\Local\Temp\testng-eclipse-2077950696\testng-customsuite.xml</span>
+                    <span>C:\Users\GokulRajIbrahimpatna\AppData\Local\Temp\testng-eclipse-1885206306\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">2 methods, 2 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,7 +103,12 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="cucumber.TestNGTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Purchasing a product on Samsung website&quot;, &quot;Sign-in to Forbes website.&quot;)">runScenario("Purchasing a product on Samsung website", "Sign-in to Forbes website.")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="cucumber.TestNGTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Negative test for signing in to the website&quot;, &quot;Sign-in to Forbes website.&quot;)">runScenario("Negative test for signing in to the website", "Sign-in to Forbes website.")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="cucumber.TestNGTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Positive test for signing in to the website&quot;, &quot;Sign-in to Forbes website.&quot;)">runScenario("Positive test for signing in to the website", "Sign-in to Forbes website.")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -126,25 +131,28 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Purchasing a product on Samsung website&quot;, &quot;Sign-in to Forbes website.&quot;)">
-                  </a> <!-- runScenario("Purchasing a product on Samsung website", "Sign-in to Forbes website.") -->
+                  <a name="runScenario(&quot;Negative test for signing in to the website&quot;, &quot;Sign-in to Forbes website.&quot;)">
+                  </a> <!-- runScenario("Negative test for signing in to the website", "Sign-in to Forbes website.") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Purchasing a product on Samsung website","Sign-in to Forbes website.")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.id: iptLgnPlnPD
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy29.sendKeys(Unknown Source)
-	at com.AngularSiteTestingDemo.pageObjects.SamsungSite.enterpassWord(SamsungSite.java:140)
-	at com.AngularSiteTestingDemo.stepDefinitions.StepDefinitionImpl.user_enters_SamsungSite_emailID_and_password(StepDefinitionImpl.java:154)
-	at ✽.user enters SamsungSite emailID gookulraj404@gmail.com and password samsung@2k21(file:///C:/Users/GokulRajIbrahimpatna/eclipse-workspace/AngularSiteTestingDemo/src/test/java/cucumber/ForbesAutomation_TC_SignIn_001.feature:33)
+                  <span class="parameters">("Negative test for signing in to the website","Sign-in to Forbes website.")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.AngularSiteTestingDemo.pageObjects.LoginPage.clickSignIn()&quot; because &quot;this.lp&quot; is null
+	at com.AngularSiteTestingDemo.stepDefinitions.StepDefinitionImpl.user_enters_emailID_and_password(StepDefinitionImpl.java:61)
+	at ✽.user enters emailID gookulraj404@gmail.com and password IvarViking@2k21(file:///C:/Users/GokulRajIbrahimpatna/eclipse-workspace/AngularSiteTestingDemo/src/test/java/cucumber/ForbesAutomation_TC_SignIn_001.feature:21)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Positive test for signing in to the website&quot;, &quot;Sign-in to Forbes website.&quot;)">
+                  </a> <!-- runScenario("Positive test for signing in to the website", "Sign-in to Forbes website.") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Positive test for signing in to the website","Sign-in to Forbes website.")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.AngularSiteTestingDemo.pageObjects.LoginPage.clickSignIn()&quot; because &quot;this.lp&quot; is null
+	at com.AngularSiteTestingDemo.stepDefinitions.StepDefinitionImpl.user_enters_emailID_and_password(StepDefinitionImpl.java:61)
+	at ✽.user enters emailID gookulraj404@gmail.com and password IvarViking@2k21(file:///C:/Users/GokulRajIbrahimpatna/eclipse-workspace/AngularSiteTestingDemo/src/test/java/cucumber/ForbesAutomation_TC_SignIn_001.feature:10)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -156,7 +164,7 @@ Driver info: driver.version: RemoteWebDriver
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\GokulRajIbrahimpatna\AppData\Local\Temp\testng-eclipse-2077950696\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\GokulRajIbrahimpatna\AppData\Local\Temp\testng-eclipse-1885206306\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -213,16 +221,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'cucumber.TestNGTestRunner')
-data.setCell(0, 3, 124223);
+data.setCell(0, 3, 48507);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'cucumber.TestNGTestRunner')
+data.setCell(1, 3, 35123);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -250,18 +262,24 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">cucumber.TestNGTestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@749baa0c)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@20fcea37)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">runScenario("Purchasing a product on Samsung website", "Sign-in to Forbes website.")</span>
-                <span class="method-start">1602 ms</span>
+                <span class="method-name">runScenario("Positive test for signing in to the website", "Sign-in to Forbes website.")</span>
+                <span class="method-start">970 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Negative test for signing in to the website", "Sign-in to Forbes website.")</span>
+                <span class="method-start">49483 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">125857 ms</span>
+                <span class="method-start">84616 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

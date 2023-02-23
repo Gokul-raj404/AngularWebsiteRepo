@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-23T12:28:16 IST" name="Default suite" finished-at="2023-02-23T12:30:23 IST" duration-ms="126987">
+  <suite started-at="2023-02-23T18:26:52 IST" name="Default suite" finished-at="2023-02-23T18:28:18 IST" duration-ms="85807">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@55fe41ea]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-02-23T12:28:16 IST" name="Default test" finished-at="2023-02-23T12:30:23 IST" duration-ms="126987">
+    <test started-at="2023-02-23T18:26:52 IST" name="Default test" finished-at="2023-02-23T18:28:18 IST" duration-ms="85807">
       <class name="cucumber.TestNGTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGTestRunner@55fe41ea]" started-at="2023-02-23T12:28:16 IST" name="setUpClass" finished-at="2023-02-23T12:28:18 IST" duration-ms="1577" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGTestRunner@55fe41ea]" started-at="2023-02-23T18:26:52 IST" name="setUpClass" finished-at="2023-02-23T18:26:53 IST" duration-ms="959" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@749baa0c]]>
+                <![CDATA[org.testng.TestRunner@20fcea37]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@55fe41ea]" started-at="2023-02-23T12:28:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-23T12:30:22 IST" duration-ms="124223" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@55fe41ea]" started-at="2023-02-23T18:26:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-23T18:27:42 IST" duration-ms="48507" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Purchasing a product on Samsung website"]]>
+                <![CDATA["Positive test for signing in to the website"]]>
               </value>
             </param>
             <param index="1">
@@ -34,37 +34,48 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[Unable to find element with locator By.id: iptLgnPlnPD
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: driver.version: RemoteWebDriver]]>
+              <![CDATA[Cannot invoke "com.AngularSiteTestingDemo.pageObjects.LoginPage.clickSignIn()" because "this.lp" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.id: iptLgnPlnPD
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy29.sendKeys(Unknown Source)
-at com.AngularSiteTestingDemo.pageObjects.SamsungSite.enterpassWord(SamsungSite.java:140)
-at com.AngularSiteTestingDemo.stepDefinitions.StepDefinitionImpl.user_enters_SamsungSite_emailID_and_password(StepDefinitionImpl.java:154)
-at ✽.user enters SamsungSite emailID gookulraj404@gmail.com and password samsung@2k21(file:///C:/Users/GokulRajIbrahimpatna/eclipse-workspace/AngularSiteTestingDemo/src/test/java/cucumber/ForbesAutomation_TC_SignIn_001.feature:33)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.AngularSiteTestingDemo.pageObjects.LoginPage.clickSignIn()" because "this.lp" is null
+at com.AngularSiteTestingDemo.stepDefinitions.StepDefinitionImpl.user_enters_emailID_and_password(StepDefinitionImpl.java:61)
+at ✽.user enters emailID gookulraj404@gmail.com and password IvarViking@2k21(file:///C:/Users/GokulRajIbrahimpatna/eclipse-workspace/AngularSiteTestingDemo/src/test/java/cucumber/ForbesAutomation_TC_SignIn_001.feature:10)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNGTestRunner@55fe41ea]" started-at="2023-02-23T12:30:22 IST" name="tearDownClass" finished-at="2023-02-23T12:30:23 IST" duration-ms="1089" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@55fe41ea]" started-at="2023-02-23T18:27:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-23T18:28:17 IST" duration-ms="35123" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Negative test for signing in to the website"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sign-in to Forbes website."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.AngularSiteTestingDemo.pageObjects.LoginPage.clickSignIn()" because "this.lp" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.AngularSiteTestingDemo.pageObjects.LoginPage.clickSignIn()" because "this.lp" is null
+at com.AngularSiteTestingDemo.stepDefinitions.StepDefinitionImpl.user_enters_emailID_and_password(StepDefinitionImpl.java:61)
+at ✽.user enters emailID gookulraj404@gmail.com and password IvarViking@2k21(file:///C:/Users/GokulRajIbrahimpatna/eclipse-workspace/AngularSiteTestingDemo/src/test/java/cucumber/ForbesAutomation_TC_SignIn_001.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNGTestRunner@55fe41ea]" started-at="2023-02-23T18:28:17 IST" name="tearDownClass" finished-at="2023-02-23T18:28:18 IST" duration-ms="1165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Feb 23, 2023 12:28:17 pm</span></a>
+<a href="#"><span class="badge badge-primary">Feb 23, 2023 06:26:53 pm</span></a>
 </li>
 </ul>
 </div>
@@ -84,7 +84,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@Samsung</a>
+<a class="dropdown-item" href="#">@Forbes</a>
 </ul>
 </li>
 </ul>
@@ -97,7 +97,7 @@
           <div class="test-detail">
             <p class="name">Sign-in to Forbes website.</p>
             <p class="text-sm">
-              <span>12:28:18 pm</span> / <span>00:02:03:801</span>
+              <span>6:26:54 pm</span> / <span>00:01:23:398</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -106,9 +106,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Sign-in to Forbes website.</h5>
-<span class='badge badge-success'>02.23.2023 12:28:18 pm</span>
-<span class='badge badge-danger'>02.23.2023 12:30:22 pm</span>
-<span class='badge badge-default'>00:02:03:801</span>
+<span class='badge badge-success'>02.23.2023 6:26:54 pm</span>
+<span class='badge badge-danger'>02.23.2023 6:28:17 pm</span>
+<span class='badge badge-default'>00:01:23:398</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -120,14 +120,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Purchasing a product on Samsung website</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Positive test for signing in to the website</div>
       </div>
     </div>
         <div class="scenario_outline ">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Purchasing a product on Samsung website</div>
+                  <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Positive test for signing in to the website</div>
                 </div>
               </div>
               <div class="card-body mt-3 ">
@@ -137,30 +137,66 @@
       </div>
                   </div>
                   <div class="step pass-bg">
-                    <span>Given user is on the samsung login page https://www.samsung.com/in/</span>
+                    <span>Given user is on the login page https://www.forbes.com/?sh=704076982254</span>
       <div>
       </div>
                   </div>
                   <div class="step fail-bg">
-                    <span>When user enters SamsungSite emailID gookulraj404@gmail.com and password samsung@2k21</span>
+                    <span>When user enters emailID gookulraj404@gmail.com and password IvarViking@2k21</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.id: iptLgnPlnPD
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy29.sendKeys(Unknown Source)
-	at com.AngularSiteTestingDemo.pageObjects.SamsungSite.enterpassWord(SamsungSite.java:140)
-	at com.AngularSiteTestingDemo.stepDefinitions.StepDefinitionImpl.user_enters_SamsungSite_emailID_and_password(StepDefinitionImpl.java:154)
-	at ✽.user enters SamsungSite emailID gookulraj404@gmail.com and password samsung@2k21(file:///C:/Users/GokulRajIbrahimpatna/eclipse-workspace/AngularSiteTestingDemo/src/test/java/cucumber/ForbesAutomation_TC_SignIn_001.feature:33)
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.AngularSiteTestingDemo.pageObjects.LoginPage.clickSignIn()" because "this.lp" is null
+	at com.AngularSiteTestingDemo.stepDefinitions.StepDefinitionImpl.user_enters_emailID_and_password(StepDefinitionImpl.java:61)
+	at ✽.user enters emailID gookulraj404@gmail.com and password IvarViking@2k21(file:///C:/Users/GokulRajIbrahimpatna/eclipse-workspace/AngularSiteTestingDemo/src/test/java/cucumber/ForbesAutomation_TC_SignIn_001.feature:10)
 </textarea>
       
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify the account holders name Hello, Gokul</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="9"><span class="badge log fail-bg mr-2">Fail</span>Negative test for signing in to the website</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="10"><span class="badge log fail-bg mr-2">Fail</span>Negative test for signing in to the website</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given I am launching the browser</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user is on the login page https://www.forbes.com/?sh=704076982254</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>When user enters emailID gookulraj404@gmail.com and password IvarViking@2k21</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "com.AngularSiteTestingDemo.pageObjects.LoginPage.clickSignIn()" because "this.lp" is null
+	at com.AngularSiteTestingDemo.stepDefinitions.StepDefinitionImpl.user_enters_emailID_and_password(StepDefinitionImpl.java:61)
+	at ✽.user enters emailID gookulraj404@gmail.com and password IvarViking@2k21(file:///C:/Users/GokulRajIbrahimpatna/eclipse-workspace/AngularSiteTestingDemo/src/test/java/cucumber/ForbesAutomation_TC_SignIn_001.feature:21)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify the account holders name Hello, Sandeep</span>
+      <div>Step skipped
       </div>
                   </div>
               </div>
@@ -190,15 +226,15 @@ Driver info: driver.version: RemoteWebDriver
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log badge-danger'>2</span>
 </span>
-<p class="name">org.openqa.selenium.NoSuchElementException</p>
-<p class="duration text-sm">1 tests</p>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">2 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.NoSuchElementException</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -211,11 +247,21 @@ Driver info: driver.version: RemoteWebDriver
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>12:28:50 pm</td>
+<td>18:27:42 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='6'>When user enters SamsungSite emailID gookulraj404@gmail.com and password samsung@2k21</a>
+<a href="#" class="linked" test-id='1' id='6'>When user enters emailID gookulraj404@gmail.com and password IvarViking@2k21</a>
 <div class="">
-<span class="badge badge-default">Sign-in to Forbes website..Purchasing a product on Samsung website.When user enters SamsungSite emailID gookulraj404@gmail.com and password samsung@2k21</span>
+<span class="badge badge-default">Sign-in to Forbes website..Positive test for signing in to the website.When user enters emailID gookulraj404@gmail.com and password IvarViking@2k21</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:28:17 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='13'>When user enters emailID gookulraj404@gmail.com and password IvarViking@2k21</a>
+<div class="">
+<span class="badge badge-default">Sign-in to Forbes website..Negative test for signing in to the website.When user enters emailID gookulraj404@gmail.com and password IvarViking@2k21</span>
 </div>
 </td>
 </tr>
@@ -242,15 +288,15 @@ Driver info: driver.version: RemoteWebDriver
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log badge-danger'>2</span>
 </span>
-<p class="name">@Samsung</p>
-<p class="duration text-sm">1 tests</p>
+<p class="name">@Forbes</p>
+<p class="duration text-sm">2 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@Samsung</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<h4>@Forbes</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -263,11 +309,21 @@ Driver info: driver.version: RemoteWebDriver
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>12:28:18 pm</td>
+<td>18:26:54 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='3'>Purchasing a product on Samsung website</a>
+<a href="#" class="linked" test-id='1' id='3'>Positive test for signing in to the website</a>
 <div class="">
-<span class="badge badge-default">Sign-in to Forbes website..Purchasing a product on Samsung website</span>
+<span class="badge badge-default">Sign-in to Forbes website..Positive test for signing in to the website</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:27:42 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>Negative test for signing in to the website</a>
+<div class="">
+<span class="badge badge-default">Sign-in to Forbes website..Negative test for signing in to the website</span>
 </div>
 </td>
 </tr>
@@ -288,13 +344,13 @@ Driver info: driver.version: RemoteWebDriver
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Feb 23, 2023 12:28:17 pm</h3>
+<h3>Feb 23, 2023 06:26:53 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Feb 23, 2023 12:30:22 pm</h3>
+<h3>Feb 23, 2023 06:28:17 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -347,7 +403,7 @@ Driver info: driver.version: RemoteWebDriver
 <div class="card-footer">
 <div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='100%'><b>1</b> scenarios failed,
+<small data-tooltip='100%'><b>2</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -365,10 +421,10 @@ Driver info: driver.version: RemoteWebDriver
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='66%'><b>2</b> steps passed</small></div>
+<div><small data-tooltip='50%'><b>4</b> steps passed</small></div>
 <div>
-<small data-tooltip='33%'><b>1</b> steps failed,
-<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='25%'><b>2</b> steps failed,
+<b>2</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -384,7 +440,7 @@ Driver info: driver.version: RemoteWebDriver
 </div></div>
 <script>
 var timeline = {
-"Sign-in to Forbes website.":123.801
+"Sign-in to Forbes website.":83.398
 };
 </script>
 <div class="row">
@@ -394,9 +450,9 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@Samsung</td>
+<td>@Forbes</td>
 <td>0</td>
-<td>1</td>
+<td>2</td>
 <td>0</td>
 <td>0</td>
 <td>0%</td>
@@ -416,15 +472,15 @@ warningParent: 0,
 skipParent: 0,
 childCount: 5,
 passChild: 0,
-failChild: 1,
+failChild: 2,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 2,
-failGrandChild: 1,
+passGrandChild: 4,
+failGrandChild: 2,
 warningGrandChild: 0,
-skipGrandChild: 0,
+skipGrandChild: 2,
 infoGrandChild: 0,
 eventsCount: 5,
 };
