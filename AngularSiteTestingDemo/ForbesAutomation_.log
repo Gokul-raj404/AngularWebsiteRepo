@@ -355,3 +355,39 @@
 2023-02-23 12:02:945 INFO  BaseClass:138 - Samsung URL Launched
 2023-02-23 18:02:400 INFO  BaseClass:54 - URL Launched
 2023-02-23 18:02:551 INFO  BaseClass:54 - URL Launched
+2023-03-03 12:03:897 INFO  BaseClass:56 - URL Launched
+2023-03-03 12:03:991 INFO  BaseClass:65 - clicked on sign-in button
+2023-03-03 12:03:38 INFO  BaseClass:68 - Switched to IFrame
+2023-03-03 12:03:128 INFO  BaseClass:71 - Entered email ID
+2023-03-03 12:03:226 INFO  BaseClass:75 - Entered Password
+2023-03-03 12:03:324 INFO  BaseClass:79 - Unchecked the check box
+2023-03-03 12:03:413 INFO  BaseClass:84 - Clicked on sign-in button
+2023-03-03 12:03:673 INFO  BaseClass:88 - Mouse hovered on account icon
+2023-03-03 12:03:706 INFO  BaseClass:99 - Sucessful login
+2023-03-03 12:03:251 INFO  BaseClass:56 - URL Launched
+2023-03-03 12:03:518 INFO  BaseClass:65 - clicked on sign-in button
+2023-03-03 12:03:570 INFO  BaseClass:68 - Switched to IFrame
+2023-03-03 12:03:659 INFO  BaseClass:71 - Entered email ID
+2023-03-03 12:03:749 INFO  BaseClass:75 - Entered Password
+2023-03-03 12:03:842 INFO  BaseClass:79 - Unchecked the check box
+2023-03-03 12:03:947 INFO  BaseClass:84 - Clicked on sign-in button
+2023-03-03 12:03:225 INFO  BaseClass:88 - Mouse hovered on account icon
+2023-03-03 12:03:267 INFO  BaseClass:101 - Invalid login
+2023-03-03 12:03:821 INFO  BaseClass:56 - URL Launched
+2023-03-03 12:03:957 INFO  BaseClass:65 - clicked on sign-in button
+2023-03-03 12:03:988 INFO  BaseClass:68 - Switched to IFrame
+2023-03-03 12:03:78 INFO  BaseClass:71 - Entered email ID
+2023-03-03 12:03:180 INFO  BaseClass:75 - Entered Password
+2023-03-03 12:03:271 INFO  BaseClass:79 - Unchecked the check box
+2023-03-03 12:03:368 INFO  BaseClass:84 - Clicked on sign-in button
+2023-03-03 12:03:336 INFO  BaseClass:88 - Mouse hovered on account icon
+2023-03-03 12:03:381 INFO  BaseClass:99 - Sucessful login
+2023-03-03 12:03:500 INFO  BaseClass:56 - URL Launched
+2023-03-03 12:03:675 INFO  BaseClass:65 - clicked on sign-in button
+2023-03-03 12:03:706 INFO  BaseClass:68 - Switched to IFrame
+2023-03-03 12:03:804 INFO  BaseClass:71 - Entered email ID
+2023-03-03 12:03:897 INFO  BaseClass:75 - Entered Password
+2023-03-03 12:03:982 INFO  BaseClass:79 - Unchecked the check box
+2023-03-03 12:03:64 INFO  BaseClass:84 - Clicked on sign-in button
+2023-03-03 12:03:614 INFO  BaseClass:88 - Mouse hovered on account icon
+2023-03-03 12:03:654 INFO  BaseClass:101 - Invalid login

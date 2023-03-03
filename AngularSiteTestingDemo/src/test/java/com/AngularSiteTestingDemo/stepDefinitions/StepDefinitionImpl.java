@@ -40,10 +40,7 @@ public class StepDefinitionImpl extends TestListener {
 	public void I_am_launching_the_browser() {
 		
 		WebDriverManager.chromedriver().setup();
-		driver= new ChromeDriver();
-		lp = new LoginPage(driver);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		driver.manage().window().maximize();
+		
 		
 		PropertyConfigurator.configure(configFilename);
 	}
@@ -51,7 +48,10 @@ public class StepDefinitionImpl extends TestListener {
 	
 	@Given("^user is on the Forbes login page (.+)$")
 	public void user_is_on_the_Forbes_login_page(String baseURL) {
-		
+		driver= new ChromeDriver();
+		lp = new LoginPage(driver);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.manage().window().maximize();
 		driver.get(baseURL);
 		logger.info("URL Launched");
 		//extentTest.pass("URL Launched");
@@ -112,26 +112,24 @@ public class StepDefinitionImpl extends TestListener {
 	public static void quitDriver() throws Exception {
 		driver.quit();
 	}
-	/*
-	 * @After(order = 2) public void takeScreenShotOnFailedScenario(Scenario
-	 * scenario) throws IOException {
-	 * 
-	 * 
-	 * if ((scenario.isFailed())) { System.out.
-	 * println("Taking screenshot from Cucumber After hook with order=2 if the scenario fails"
-	 * ); byte[] screenshot = ((TakesScreenshot)
-	 * driver).getScreenshotAs(OutputType.BYTES); File localscreenshot=
-	 * ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-	 * System.out.println(scenario.getName()); String filename = scenario.getName()+
-	 * "_" + new SimpleDateFormat("yyyyMMddHHmmss").format(new Date()) + ".png";
-	 * scenario.attach(screenshot, "image/png", filename);
-	 * FileUtils.copyFile(localscreenshot, new File(
-	 * "C:\\Users\\GokulRajIbrahimpatna\\eclipse-workspace\\AngularSiteTestingDemo\\Screenshots\\"+
-	 * filename));
-	 * 
-	 * 
-	 * } }
-	 */
+	
+	  @After(order = 2) 
+	  public void takeScreenShotOnFailedScenario(Scenario scenario) throws IOException 
+	  {
+	   
+	  if ((scenario.isFailed())) 
+	  { 
+		  System.out.println("Taking screenshot from Cucumber After hook with order=2 if the scenario fails");
+		  byte[] screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+		  File localscreenshot= ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		  System.out.println(scenario.getName());
+		  String filename = scenario.getName()+"_" + new SimpleDateFormat("yyyyMMddHHmmss").format(new Date()) + ".png";
+		  scenario.attach(screenshot, "image/png", filename);
+		  FileUtils.copyFile(localscreenshot, new File("C:\\Users\\GokulRajIbrahimpatna\\git\\repository\\AngularSiteTestingDemo\\Screenshots\\"+filename));
+	  } 
+	  
+	  }
+	 
 
 	
 	@Given("^user is on the samsung login page (.+)$")
