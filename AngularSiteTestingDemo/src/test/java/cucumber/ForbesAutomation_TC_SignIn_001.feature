@@ -6,7 +6,7 @@ Feature: Sign-in to Forbes website.
 
   	@Forbes
   Scenario Outline: Positive test for signing in to the website
-    Given user is on the login page <BaseURL>
+    Given user is on the Forbes login page <BaseURL>
     When user enters emailID <emailID> and password <password>
     Then I verify the account holders name <accHolder>
     
@@ -17,7 +17,7 @@ Feature: Sign-in to Forbes website.
     
     @Forbes
   Scenario Outline: Negative test for signing in to the website
-    Given user is on the login page <BaseURL>
+    Given user is on the Forbes login page <BaseURL>
     When user enters emailID <emailID> and password <password>
     Then I verify the account holders name <accHolder>
 

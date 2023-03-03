@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\GokulRajIbrahimpatna\AppData\Local\Temp\testng-eclipse-1885206306\testng-customsuite.xml</span>
+                    <span>C:\Users\GokulRajIbrahimpatna\AppData\Local\Temp\testng-eclipse--969483025\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,12 +103,12 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="cucumber.TestNGTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Negative test for signing in to the website&quot;, &quot;Sign-in to Forbes website.&quot;)">runScenario("Negative test for signing in to the website", "Sign-in to Forbes website.")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="cucumber.TestNGTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Positive test for signing in to the website&quot;, &quot;Sign-in to Forbes website.&quot;)">runScenario("Positive test for signing in to the website", "Sign-in to Forbes website.")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="cucumber.TestNGTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Positive test for signing in to the website&quot;, &quot;Sign-in to Forbes website.&quot;)">runScenario("Positive test for signing in to the website", "Sign-in to Forbes website.")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="cucumber.TestNGTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Negative test for signing in to the website&quot;, &quot;Sign-in to Forbes website.&quot;)">runScenario("Negative test for signing in to the website", "Sign-in to Forbes website.")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -131,13 +131,53 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Negative test for signing in to the website&quot;, &quot;Sign-in to Forbes website.&quot;)">
-                  </a> <!-- runScenario("Negative test for signing in to the website", "Sign-in to Forbes website.") -->
+                  <a name="runScenario(&quot;Positive test for signing in to the website&quot;, &quot;Sign-in to Forbes website.&quot;)">
+                  </a> <!-- runScenario("Positive test for signing in to the website", "Sign-in to Forbes website.") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Negative test for signing in to the website","Sign-in to Forbes website.")</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.AngularSiteTestingDemo.pageObjects.LoginPage.clickSignIn()&quot; because &quot;this.lp&quot; is null
-	at com.AngularSiteTestingDemo.stepDefinitions.StepDefinitionImpl.user_enters_emailID_and_password(StepDefinitionImpl.java:61)
-	at ✽.user enters emailID gookulraj404@gmail.com and password IvarViking@2k21(file:///C:/Users/GokulRajIbrahimpatna/eclipse-workspace/AngularSiteTestingDemo/src/test/java/cucumber/ForbesAutomation_TC_SignIn_001.feature:21)
+                  <span class="parameters">("Positive test for signing in to the website","Sign-in to Forbes website.")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user is on the login page https://www.forbes.com/?sh=704076982254&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given(&quot;user is on the login page https:\\/\\/www.forbes.com\\/?sh={int}&quot;)
+public void user_is_on_the_login_page_https_www_forbes_com_sh(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -146,13 +186,53 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Positive test for signing in to the website&quot;, &quot;Sign-in to Forbes website.&quot;)">
-                  </a> <!-- runScenario("Positive test for signing in to the website", "Sign-in to Forbes website.") -->
+                  <a name="runScenario(&quot;Negative test for signing in to the website&quot;, &quot;Sign-in to Forbes website.&quot;)">
+                  </a> <!-- runScenario("Negative test for signing in to the website", "Sign-in to Forbes website.") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Positive test for signing in to the website","Sign-in to Forbes website.")</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.AngularSiteTestingDemo.pageObjects.LoginPage.clickSignIn()&quot; because &quot;this.lp&quot; is null
-	at com.AngularSiteTestingDemo.stepDefinitions.StepDefinitionImpl.user_enters_emailID_and_password(StepDefinitionImpl.java:61)
-	at ✽.user enters emailID gookulraj404@gmail.com and password IvarViking@2k21(file:///C:/Users/GokulRajIbrahimpatna/eclipse-workspace/AngularSiteTestingDemo/src/test/java/cucumber/ForbesAutomation_TC_SignIn_001.feature:10)
+                  <span class="parameters">("Negative test for signing in to the website","Sign-in to Forbes website.")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user is on the login page https://www.forbes.com/?sh=704076982254&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given(&quot;user is on the login page https:\\/\\/www.forbes.com\\/?sh={int}&quot;)
+public void user_is_on_the_login_page_https_www_forbes_com_sh(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -164,7 +244,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\GokulRajIbrahimpatna\AppData\Local\Temp\testng-eclipse-1885206306\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\GokulRajIbrahimpatna\AppData\Local\Temp\testng-eclipse--969483025\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -225,16 +305,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'cucumber.TestNGTestRunner')
-data.setCell(0, 3, 48507);
+data.setCell(0, 3, 13953);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'cucumber.TestNGTestRunner')
-data.setCell(1, 3, 35123);
+data.setCell(1, 3, 12193);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -262,24 +342,24 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">cucumber.TestNGTestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@20fcea37)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@376b5cb2)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Positive test for signing in to the website", "Sign-in to Forbes website.")</span>
-                <span class="method-start">970 ms</span>
+                <span class="method-start">1048 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Negative test for signing in to the website", "Sign-in to Forbes website.")</span>
-                <span class="method-start">49483 ms</span>
+                <span class="method-start">15005 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">84616 ms</span>
+                <span class="method-start">27203 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

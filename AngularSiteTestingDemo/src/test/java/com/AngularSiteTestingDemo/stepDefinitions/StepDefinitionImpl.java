@@ -41,15 +41,17 @@ public class StepDefinitionImpl extends TestListener {
 		
 		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
-		ss = new SamsungSite(driver);
+		lp = new LoginPage(driver);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().window().maximize();
+		
 		PropertyConfigurator.configure(configFilename);
 	}
 	
 	
-	@Given("^user is on the login page (.+)$")
-	public void user_is_on_the_login_page(String baseURL) {
+	@Given("^user is on the Forbes login page (.+)$")
+	public void user_is_on_the_Forbes_login_page(String baseURL) {
+		
 		driver.get(baseURL);
 		logger.info("URL Launched");
 		//extentTest.pass("URL Launched");
@@ -108,7 +110,7 @@ public class StepDefinitionImpl extends TestListener {
 	
 	@After(order=1) 
 	public static void quitDriver() throws Exception {
-		//driver.quit();
+		driver.quit();
 	}
 	/*
 	 * @After(order = 2) public void takeScreenShotOnFailedScenario(Scenario
@@ -134,6 +136,10 @@ public class StepDefinitionImpl extends TestListener {
 	
 	@Given("^user is on the samsung login page (.+)$")
 	public void user_is_on_the_samsung_login_page(String baseURL) {
+		driver= new ChromeDriver();
+		ss = new SamsungSite(driver);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.manage().window().maximize();
 		driver.get(baseURL);
 		logger.info("Samsung URL Launched");
 		//extentTest.pass("URL Launched");
